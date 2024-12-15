@@ -1,7 +1,7 @@
 :root{
     --primaria : #35A827;
     --cor: #f3f3f3;
-    --botao-1: #E8546b;
+    --secundaria:rgb(121, 216, 109);
     --botao-2: #AC3CF6;
     --up:#2eb1a3;
 }
@@ -63,6 +63,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    position: relative;
   }
   
   
@@ -147,3 +148,64 @@ body {
 .icon{
     font-size: 1.5rem;
 }   
+/* daqui para baixo é a sadbar*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secundaria);
+    position: absolute;
+    height: 100dvh;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.nav a{
+    margin-inline: auto;
+    background-color: var(--primaria);
+    border-radius: 30px;
+}
+
+.nav button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    gap: 1rem;
+    background-color: transparent;
+    border: none;
+    color: var(--cor);
+
+}
+
+.recolher{
+    width:100%;
+    display: flex;
+    justify-content: start;
+    padding: 1rem;
+}
+
+.btn_recolher{
+    background-color: var(--primaria);
+    color: var(--cor);
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.menu-active{
+    transform: translateX(0);
+}
