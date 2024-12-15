@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Bionalize</title>
+  </head>
+  <body class="bg">
+    <main id="app-container">
+      <header class="header_principal">
+        <h1 class="title">CADASTRO</h1>
+      </header>
+
+      <section class="content_principal">
+        <div class="login">
+          <div class="forms">
+            <div class="input">
+                <label for="nome" class="title-input">Nome</label>
+                <div class="input-container">
+                  <i class="fa fa-user icones"></i>
+                  <input type="text" name="nome" class="input-login" id="nome" />
+                </div>
+              </div>
+              <div class="input">
+                <label for="telefone" class="title-input">Telefone</label>
+                <div class="input-container">
+                  <i class="fa fa-phone icones"></i>
+                  <input type="tel" name="telefone" class="input-login" id="telefone" />
+                </div>
+              </div>
+            <div class="input">
+              <label for="email" class="title-input">Email</label>
+              <div class="input-container">
+                <i class="fa fa-envelope icones"></i>
+                <input type="email" name="email" class="input-login" id="email" />
+              </div>
+            </div>
+            <div class="input">
+              <label for="senha" class="title-input">Senha</label>
+              <div class="input-container">
+                <i class="fa fa-lock icones"></i>
+                <input type="password" name="senha" class="input-login senhaa" id="senha" />
+              </div>
+            </div>
+            <div class="input">
+              <input class="input-caixa caixinhaa" type="checkbox" id="show-password" />
+              <label for="show-password" class="title-input">Mostrar Senha</label>
+            </div>
+            <button class="btn_login" type="submit">Entrar</button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer_principal">
+        <a href="../index.html" class="footer-a">LOGIN</a>
+      </footer>
+      <script>
+        const btn_caixa2 = document.querySelector('.caixinhaa');
+        const password2 = document.querySelector('.senhaa');
+
+        btn_caixa2.addEventListener('change', function() {
+            if (btn_caixa2.checked) {
+                password2.type = 'text';
+            } else {
+                password2.type = 'password';
+            }
+        });
+        const btn_login = document.querySelector('.btn_login');
+
+btn_login.addEventListener('click', function() {
+    window.location.href = 'home.html';
+});
+
+    </script>
+    </main>
+  </body>
+</html>

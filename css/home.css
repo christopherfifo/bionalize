@@ -132,7 +132,7 @@
     padding-block: 7px;
     background-color: transparent;
     outline: none;
-    weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
 }

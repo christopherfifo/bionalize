@@ -5,6 +5,7 @@
     --ativo: #D1D1D1;
     --input:#B0DDAA;
     --fundo:rgb(87, 84, 84);
+    --preto: #000;
 }
 
 *,
@@ -228,4 +229,123 @@ body {
         white: 100%;
         height: 100%;
     }
+}
+
+
+.header_principal{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    height: 200px;
+    color: var(--primaria);
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+/* login */
+
+.content_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 100%;
+    color: var(--cor);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.footer_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.footer-a{
+    text-decoration: none;
+    color: var(--primaria);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    min-height: 96%;
+    padding: 1rem;
+    border-radius: 30px;
+    border: 5px solid var(--primaria);
+    justify-content: space-around;
+}
+
+.perfil{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--preto);
+}
+
+
+.title-input{
+    font-size: 1.5rem;
+    color: var(--preto);
+    width: 100%;
+}
+
+
+.icones {
+    font-size: 1.5rem;
+    color: black;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-login {
+    width: 100%;
+    padding-left: 40px; /* Espaço para o ícone */
+    background-color: var(--primaria);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: var(--cor);
+    outline: none;
+    margin-inline: auto;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}  
+
+.input-caixa{
+    width: 20px;
+    height: 20px;
+}
+
+.btn_login{
+    background-color: var(--primaria);
+    color: var(--cor);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 50%;
+    margin-inline: auto;
 }

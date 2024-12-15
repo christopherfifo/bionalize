@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Macaco",
+        "nome_cientifico": "Cebus apella",
+        "habitat": "Floresta tropical",
+        "alimentação": "Onívoro",
+        "população": 300000,
+        "estado": "Pouco preocupante",
+        "dimorfismo": "Sim",
+        "tamanho": "0.5m",
+        "expectativa_vida": "25 anos",
+        "imagem": "macaco.jpg",
+        "descrição": "O macaco-prego é conhecido por sua inteligência e habilidade de usar ferramentas."
+    },
+    {
+        "nome": "Zebra",
+        "nome_cientifico": "Equus quagga",
+        "habitat": "Savana",
+        "alimentação": "Herbívoro",
+        "população": 750000,
+        "estado": "Quase ameaçada",
+        "dimorfismo": "Não",
+        "tamanho": "1.3m",
+        "expectativa_vida": "25 anos",
+        "imagem": "marty.jpg",
+        "descrição": "A zebra é conhecida por suas listras pretas e brancas distintas e vive em grupos chamados de manadas."
+    },
+    {
+        "nome": "Urso",
+        "nome_cientifico": "Ursus arctos",
+        "habitat": "Floresta temperada",
+        "alimentação": "Onívoro",
+        "população": 200000,
+        "estado": "Pouco preocupante",
+        "dimorfismo": "Sim",
+        "tamanho": "2.5m",
+        "expectativa_vida": "30 anos",
+        "imagem": "urso.jpg",
+        "descrição": "O urso pardo é um grande mamífero conhecido por sua força e capacidade de hibernar durante o inverno."
+    }
+]

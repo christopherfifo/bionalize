@@ -1,0 +1,95 @@
+.acaner_title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+
+.icones_scaner {
+    display: flex;
+    margin-top: 1rem;
+    position: relative;
+    flex-direction: column;
+}
+
+.btn_scaner{
+    background-color: var(--primaria);
+    font-size: 2em;
+    border: none;   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+}
+
+.camera{
+    position: absolute;
+    left: 150px;
+}
+
+.rato-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    border: 3px solid var(--primaria);
+    border-radius: 30px;
+    text-align: center; 
+    margin-inline: auto;
+}
+
+.mapa{
+    color:  red;
+}
+
+.data{
+    color:  blue;
+}
+
+.btn_footer{
+    background-color: var(--primaria);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.body-detalhamentos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.detalhamentos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.detalhes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card-borda{
+    border: 3px solid var(--primaria);
+    border-radius: 30px;
+    text-align: center; 
+    margin-inline: auto;
+}
+
+
