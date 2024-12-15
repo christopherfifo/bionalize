@@ -2,8 +2,9 @@
     --primaria : #35A827;
     --cor: #f3f3f3;
     --secundaria:rgb(121, 216, 109);
-    --botao-2: #AC3CF6;
-    --up:#2eb1a3;
+    --ativo: #D1D1D1;
+    --input:#B0DDAA;
+    --fundo:rgb(87, 84, 84);
 }
 
 *,
@@ -83,10 +84,17 @@ body {
   
   .content {
     flex: 1 1 auto;
-    padding: 10px;
     overflow-y: auto; 
     font-size: 16px;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+
+    &::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Opera */
+    }
   }
   
 
@@ -108,11 +116,16 @@ body {
     cursor: pointer;
     font-size: 2.25rem;
     font-weight: bold;
+    color: var(--primaria);
 }
 
 .btn_navbar.home{
     background-color: var(--primaria);
     color: var(--cor);
+}
+
+.btn_navbar.ativo{
+    background-color: var(--ativo);
 }
 
 .btn_navbar:hover{
@@ -208,4 +221,11 @@ body {
 
 .menu-active{
     transform: translateX(0);
+}
+
+@media (max-width: 430px){
+    #app-container{
+        white: 100%;
+        height: 100%;
+    }
 }

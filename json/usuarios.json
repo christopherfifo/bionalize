@@ -1,0 +1,23 @@
+[
+    {
+        "foto_perfil": "mister.jpg",
+        "nome": "Mc Ratão",
+        "data": "2023-10-01",
+        "foto": "pica_geral.jpg",
+        "apresentacao": "Mc Ratão é um entusiasta e biólogo apaixonado por roedores e suas interações ecológicas."
+    },
+    {
+        "foto_perfil": "rei_julian.jpg",
+        "nome": "Revoada",
+        "data": "2023-10-02",
+        "foto": "taz.jpg",
+        "apresentacao": "Revoada é um biólogo entusiasta especializado em aves e seus padrões migratórios."
+    },
+    {
+        "foto_perfil": "frango.jpg",
+        "nome": "Legal",
+        "data": "2023-10-03",
+        "foto": "pantera.jpg",
+        "apresentacao": "Legal é um biólogo entusiasta com foco em grandes felinos e sua conservação."
+    }
+]

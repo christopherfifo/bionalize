@@ -1,0 +1,41 @@
+[
+{
+    "nome": "Leão",
+    "nome_cientifico": "Panthera leo",
+    "habitat": "Savana",
+    "alimentação": "Carnívoro",
+    "população": 20000,
+    "estado": "Vulnerável",
+    "dimorfismo": "Sim",
+    "tamanho": "1.2m",
+    "expectativa_vida": "14 anos",
+    "imagem": "scar.jpg",
+    "descrição": "O leão é um grande felino conhecido como o 'rei da selva'. Vive em savanas e é um predador de topo."
+},
+{
+    "nome": "Elefante",
+    "nome_cientifico": "Loxodonta africana",
+    "habitat": "Savana",
+    "alimentação": "Herbívoro",
+    "população": 415000,
+    "estado": "Vulnerável",
+    "dimorfismo": "Sim",
+    "tamanho": "3m",
+    "expectativa_vida": "60 anos",
+    "imagem": "elefante.jpg",
+    "descrição": "O elefante africano é o maior animal terrestre, conhecido por suas grandes orelhas e tromba longa."
+},
+{
+    "nome": "Tigre",
+    "nome_cientifico": "Panthera tigris",
+    "habitat": "Floresta",
+    "alimentação": "Carnívoro",
+    "população": 3900,
+    "estado": "Em perigo",
+    "dimorfismo": "Sim",
+    "tamanho": "1.1m",
+    "expectativa_vida": "15 anos",
+    "imagem": "sherikan.jpg",
+    "descrição": "O tigre é o maior felino do mundo, conhecido por suas listras distintas e força poderosa."
+}
+]

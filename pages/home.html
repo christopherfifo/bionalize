@@ -21,7 +21,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/home.css" />
     <script src="../javascript/script.js" defer></script>
+    <script src="../javascript/home.js" defer></script>
     <title>Bionalize</title>
   </head>
   <body class="bg">
@@ -46,9 +48,29 @@
         </nav>
       </aside>
 
-      <div class="content">
-        <p>Bem-vindo ao app mobile simulado!</p>
-      </div>
+      <section class="content">
+        <div class="container">
+
+          <div class="publicacoes">
+            
+            <div class="first">
+              <img class="publicacao-img" src="../pictures/mister.jpg" alt="hamster">
+              <div class="input_publicacao">
+                <input type="text" class="input" placeholder="Publicação">
+                <button class="btn_publicar"><i class="fa-solid fa-paper-plane"></i></button>
+              </div>
+            </div>
+
+            <div class="second">
+            <button class="btn_second"><i class="fa-solid fa-photo-video"></i><p>Mídia</p></button>
+            <button class="btn_second"><i class="fa-solid fa-calendar"></i><p>Eventos</p></button>
+            </div>
+             
+          </div>
+          
+        </div>
+      </section>
+
       <footer class="footer">
         <a class="link_navbar" href=""><button class="btn_navbar"><i class="fa-solid fa-paw"></i></button></a>
         <a class="link_navbar" href=""><button class="btn_navbar home"><i class="fa-solid fa-house"></i></button></a>
