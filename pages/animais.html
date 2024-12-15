@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/animais.css" />
+    <script src="../javascript/script.js" defer></script>
+    <script src="../javascript/animais.js" defer></script>
+    <title>Bionalize</title>
+  </head>
+  <body class="bg">
+    <main id="app-container">
+      <header class="header">
+        <button class="btn_navbar recolhe home"><i class="fa-solid fa-bars"></i></button>
+        <div class="pesquisa_content">
+          <input type="text" class="pesquisa" placeholder="Pesquisar" />
+          <button class="btn_pesquisa"><i class="fa-solid fa-search icon"></i></button>
+        </div>
+      </header>
+
+      <aside class="menu">
+        <div class="recolher">
+          <button class="btn_recolher recolhe"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <nav class="nav">
+          <a class="link_navbar" href="./conta.html"><button class="btn_navbar"><i class="fa-solid fa-user"></i> Perfil</button></a>
+          <a class="link_navbar" href="./historico.html"><button class="btn_navbar"><i class="fa-solid fa-clock"></i> Histórico</button></a>
+          <a class="link_navbar" href="./favoritos.html"><button class="btn_navbar"><i class="fa-solid fa-heart"></i> Favoritos</button></a>
+          <a class="link_navbar" href="../index.html"><button class="btn_navbar"><i class="fa-solid fa-person-running"></i> Sair</button></a>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <div class="container">
+
+          <div class="publicacoes">
+            <div class="first first_animais">
+              <div class="input_publicacao">
+                <input type="text" class="input animais_pesquisa" placeholder="Pesquisar">
+                <button class="btn_publicar btn_animais"><i class="fa-solid fa-search"></i></button>
+              </div>
+              <div class="icone2">
+                <button class="btn_fil"><i class="fa-solid fa-filter"></i></button>
+              </div>
+            </div>
+          </div>
+          
+>
+      </section>
+
+      <footer class="footer">
+        <a class="link_navbar" href="./animais.html"><button class="btn_navbar ativo"><i class="fa-solid fa-paw"></i></button></a>
+        <a class="link_navbar" href="./home.html"><button class="btn_navbar home"><i class="fa-solid fa-house"></i></button></a>
+        <a class="link_navbar" href="./scaner.html"><button class="btn_navbar"><i class="fa-solid fa-camera"></i></button></a>
+      </footer>
+    </main>
+  </body>
+</html>

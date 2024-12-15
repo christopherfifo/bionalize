@@ -1,0 +1,28 @@
+.contaa{
+    font-size: 3.25rem;
+}
+
+
+.nome_cienci {
+    color: #4A90E2; /* A calm blue for scientific names */
+}
+
+.caveira {
+    color: #D0021B; /* A red color indicating danger or critical status */
+}
+
+.alimento {
+    color: #7ED321; /* A green color representing food and nature */
+}
+
+.vida {
+    color: #F5A623; /* An orange color indicating life expectancy */
+}
+
+.dimorfismo {
+    color: #BD10E0; /* A purple color representing diversity */
+}
+
+.populacao {
+    color: #50E3C2; /* A teal color representing population data */
+}
